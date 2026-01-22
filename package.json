@@ -1,0 +1,15 @@
+{
+  "name": "sellercloud-export",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "axios": "^1.6.0",
+    "csv-writer": "^1.6.0",
+    "@supabase/supabase-js": "^2.39.0"
+  }
+}
